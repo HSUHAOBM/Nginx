@@ -1,0 +1,20 @@
+
+
+
+source /home/sl/venv/django/bin/activate
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+python manage.py runserver
+python manage.py shell
+
+
+python manage.py startapp musics
+django-admin startproject django_tutorial
+
+1. 建立檔案，記錄更新
+python manage.py makemigrations
+2. 根據 makemigrations 檔案，更新 DB
+python manage.py migrate
